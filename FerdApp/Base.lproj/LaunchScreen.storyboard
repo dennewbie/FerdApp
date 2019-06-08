@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="oJB-7A-Sii">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon transparent" translatesAutoresizingMaskIntoConstraints="NO" id="ES1-Mp-M1g">
+                                <rect key="frame" x="104" y="96" width="166" height="475"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FerdApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiQ-Wg-nUe">
+                                <rect key="frame" x="0.0" y="558" width="375" height="89"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="49"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oJB-7A-Sii" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="7In-CH-xJl"/>
+                            <constraint firstItem="qiQ-Wg-nUe" firstAttribute="top" secondItem="ES1-Mp-M1g" secondAttribute="bottom" constant="-13" id="Ctu-7x-d1j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qiQ-Wg-nUe" secondAttribute="bottom" constant="20" id="FbN-PY-iPp"/>
+                            <constraint firstItem="oJB-7A-Sii" firstAttribute="leading" secondItem="ES1-Mp-M1g" secondAttribute="leading" constant="-104" id="G0r-ku-VC4"/>
+                            <constraint firstItem="ES1-Mp-M1g" firstAttribute="trailing" secondItem="qiQ-Wg-nUe" secondAttribute="trailing" constant="-105" id="HOA-h2-6u1"/>
+                            <constraint firstItem="ES1-Mp-M1g" firstAttribute="centerY" secondItem="oJB-7A-Sii" secondAttribute="centerY" id="WED-Zn-zbD"/>
+                            <constraint firstItem="oJB-7A-Sii" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Xxa-nj-FI8"/>
+                            <constraint firstItem="ES1-Mp-M1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="eSW-gF-awh"/>
+                            <constraint firstItem="oJB-7A-Sii" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ebZ-HE-5he"/>
+                            <constraint firstItem="ES1-Mp-M1g" firstAttribute="leading" secondItem="qiQ-Wg-nUe" secondAttribute="leading" constant="104" id="g2X-5Q-wcl"/>
+                            <constraint firstItem="oJB-7A-Sii" firstAttribute="trailing" secondItem="qiQ-Wg-nUe" secondAttribute="trailing" id="gLC-Yv-gro"/>
+                            <constraint firstAttribute="trailing" secondItem="oJB-7A-Sii" secondAttribute="trailing" id="sHn-HY-8aH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="372.86356821589209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="450" height="900"/>
+        <image name="icon transparent" width="1076" height="1396"/>
+    </resources>
+</document>
